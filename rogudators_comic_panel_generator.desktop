@@ -4,5 +4,5 @@ ServiceTypes=Krita/PythonPlugin
 X-KDE-Library=rogudators_comic_panel_generator
 X-Python-2-Compatible=false
 X-Krita-Manual=Manual.html
-Name=Rogudator's Comic Panel Generator
-Comment=Create comic panels in a matter of clicks.
+Name=rogudators_comic_panel_generator
+Comment=plugin to make simple comic panels faster
