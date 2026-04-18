@@ -55,7 +55,7 @@ class Page_preview(QGraphicsView):
         rect_view = self.rect() 
         minheight = rect_scene.height() * rect_view.width() / rect_scene.width()
         self.fitInView(rect_scene, Qt.KeepAspectRatioByExpanding)
-        self.setMinimumHeight(minheight)
+        self.setMinimumHeight(int(minheight))
 
     
     #call this events when window is resized
